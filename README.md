@@ -123,7 +123,7 @@ To get a local copy up and running follow these simple steps.
 
 Run the command below from the Terminal:
 
-      git clone git@github.com:gdvl777/Portfolio.git in your terminal
+      git clone git@github.com:gdvl777/portfolio_desktop_version_05.git in your terminal
 
 	  cd portfolio
 
