@@ -1014,7 +1014,7 @@ ul.project__lang {
   
   .img-web:hover {
 			transform: translateY(-2px);
-   
+  }
 
   .project-description {
     display: flex;
