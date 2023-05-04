@@ -1016,6 +1016,11 @@ ul.project__lang {
     transform: translateY(-2px);
   }
 
+  .tech-list {
+    display: flex;
+    flex-direction: row;
+  }
+
   .project-description {
     display: flex;
     flex-direction: column;
