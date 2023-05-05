@@ -902,7 +902,7 @@ ul.project__lang {
     background: #fff;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+    padding: 13px;
     flex-wrap: wrap;
   }
 
@@ -1100,7 +1100,7 @@ ul.project__lang {
     flex-direction: row;
     justify-content: center;
     border-radius: 0 100px 0 0;
-    width: 99%;
+    width: 96%;
     padding: 20px;
   }
 
