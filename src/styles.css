@@ -529,16 +529,18 @@ button:active {
   left: 12px;
   top: 12px;
   display: flex;
-  padding-left: 20px;
+  padding-left: 13px;
   align-items: center;
-  column-gap: 20px;
+  flex-direction: column;
+  column-gap: 25px;
   background: #f7f7f9;
-  border-radius: 8px;
-  margin: 12px 0;
+  border-radius: 24px;
+  margin: 9px 0;
+  padding: 12px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   color: #253858;
 }
@@ -1104,7 +1106,6 @@ ul.project__lang {
   }
 
   .about p {
-    margin-left: 2%;
     line-height: 24px;
     font-size: 17px;
     text-align: left;
