@@ -72,14 +72,14 @@ const projectsList = [
 workSections.innerHTML = '';
 
 for (let i = 0; i < projectsList.length; i += 1) {
-  if(i%2!=0){
-  let languages = '';
-  projectsList[i].technologies.forEach((language) => {
-    languages += `
-      <li><a href='' class='skill' title='${language}' >${language}</a></li>
-    `;
-  });
-  workSections.innerHTML += `
+  if (i % 2 !==0) {
+    let languages = '';
+    projectsList[i].technologies.forEach((language) => {
+      languages += `
+        <li><a href='' class='skill' title='${language}' >${language}</a></li>
+      `;
+    });
+    workSections.innerHTML += `
       <div class='projects'>
           <div class='project-description'>
             <h2 class='title'>${projectsList[i].name}</h2>
@@ -108,10 +108,9 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
     </div>
   `;
-}
-else{
-  let languages = '';
-  projectsList[i].technologies.forEach((language) => {
+} else {
+    let languages = '';
+    projectsList[i].technologies.forEach((language) => {
     languages += `
       <li><a href='' class='skill' title='${language}' >${language}</a></li>
     `;

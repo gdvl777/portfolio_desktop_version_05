@@ -1055,9 +1055,8 @@ ul.project__lang {
     flex: none;
     order: 0;
     flex-grow: 0;
-    /* margin: 4.5px 40px; */
     border-radius: 50%;
-    padding: -3px 0px;
+    padding: -3px 0;
     margin: 18px;
   }
 
