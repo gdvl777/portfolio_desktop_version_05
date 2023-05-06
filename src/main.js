@@ -144,8 +144,7 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
     </div>
   `;
-}
-  }
+  }}
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
