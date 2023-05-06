@@ -70,7 +70,46 @@ const projectsList = [
 ];
 
 workSections.innerHTML = '';
+
 for (let i = 0; i < projectsList.length; i += 1) {
+  if(i%2!=0){
+  let languages = '';
+  projectsList[i].technologies.forEach((language) => {
+    languages += `
+      <li><a href='' class='skill' title='${language}' >${language}</a></li>
+    `;
+  });
+  workSections.innerHTML += `
+      <div class='projects'>
+          <div class='project-description'>
+            <h2 class='title'>${projectsList[i].name}</h2>
+            <div class='role row'>
+              <div class="role-name">${projectsList[i].company}</div>
+                <div class="role-dot"></div>
+                <div class="role-job">${projectsList[i].role}</div>
+                <div class="role-dot"></div>
+                <div class="role-year">${projectsList[i].year}</div>
+            </div>
+            <div class='project-details'>
+              <p>
+                ${projectsList[i].description}
+              </p>
+
+              <ul class='skills'>
+                ${languages}
+              </ul>
+              <div classs="button-click">
+                <button type='button' class='btn btn-enabled project-modal-${i}'>See project</button>
+              </div>
+            </div>
+          </div>
+          <div class='img-web'>
+            <img src='${projectsList[i].imageLink}' alt='work 1' class='' />
+          </div>
+    </div>
+  `;
+}
+else{
   let languages = '';
   projectsList[i].technologies.forEach((language) => {
     languages += `
@@ -106,6 +145,8 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
     </div>
   `;
+
+}
 }
 
 for (let i = 0; i < projectsList.length; i += 1) {
