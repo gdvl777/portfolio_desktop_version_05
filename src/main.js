@@ -72,7 +72,7 @@ const projectsList = [
 workSections.innerHTML = '';
 
 for (let i = 0; i < projectsList.length; i += 1) {
-  if (i % 2 !==0) {
+  if (i % 2 !== 0) {
     let languages = '';
     projectsList[i].technologies.forEach((language) => {
       languages += `
@@ -108,14 +108,14 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
     </div>
   `;
-} else {
+  } else {
     let languages = '';
     projectsList[i].technologies.forEach((language) => {
-    languages += `
+      languages += `
       <li><a href='' class='skill' title='${language}' >${language}</a></li>
     `;
-  });
-  workSections.innerHTML += `
+    });
+    workSections.innerHTML += `
       <div class='projects'>
           <div class='img-web'>
             <img src='${projectsList[i].imageLink}' alt='work 1' class='' />
@@ -144,9 +144,8 @@ for (let i = 0; i < projectsList.length; i += 1) {
           </div>
     </div>
   `;
-
 }
-}
+  }
 
 for (let i = 0; i < projectsList.length; i += 1) {
   document.querySelector(`.project-modal-${i}`).addEventListener('click', () => {
