@@ -180,7 +180,6 @@ input[type="email"]::placeholder {
   color: #344563;
   margin-top: 0;
   margin-top: -20px;
-  /* padding-top: 100px; */
 }
 
 p.intro1 {
@@ -215,7 +214,7 @@ p.intro1 {
   grid-gap: 32px;
   justify-items: center;
   margin-left: 2%;
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .social {
@@ -871,7 +870,7 @@ ul.project__lang {
     margin-left: 3%;
     padding-top: 45px;
   }
-  
+ 
   .intro3 {
     color: #7f8cff;
     font-family: 'Poppins', sans-serif;
@@ -888,7 +887,6 @@ ul.project__lang {
     padding-top: 115px;
   }
 
-  
 }
 
 @media screen and (min-width: 900px) {
