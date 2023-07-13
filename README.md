@@ -98,7 +98,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://gdvl777.github.io/)
+-- No deployed link yet
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
@@ -139,6 +139,14 @@ Run the command below from the Terminal:
 
 - GitHub: [@gdvl777](https://github.com/gdvl777)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/dvillalba777//)  
+
+> Collaborator
+
+👤 **Andrea Manuel**
+
+- GitHub: [@AndreaM2429](https://github.com/AndreaM2429)
+- Twitter: [@twitter](https://twitter.com/AndreaManuelOr1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/andrea-manuel-2b075026a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
