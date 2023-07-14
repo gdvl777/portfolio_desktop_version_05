@@ -198,6 +198,10 @@ ul {
   display: none;
 }
 
+.social-icon {
+  transition: all 2s;
+  }
+
 .project-link {
   font-family: 'Poppins', sans-serif;
   background-color: #fff;
